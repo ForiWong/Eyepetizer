@@ -42,6 +42,13 @@ import java.lang.ref.WeakReference
  *
  * @author vipyinzhiwei
  * @since  2020/4/29
+ * 标签,是否记载过数据
+ * 加载状态：三种状态UI
+ * EventBus注册及解注册
+ * 系统原生分享
+ * 状态栏背景色
+ * 顶部导航栏
+ *
  */
 @SuppressLint("Registered")
 open class BaseActivity : AppCompatActivity() {

@@ -22,7 +22,7 @@ import java.util.*
 
 /**
  * 管理应用程序中所有Activity。
- *
+ * todo 这里是使用activity的弱引用
  * @author vipyinzhiwei
  * @since  2020/4/29
  */

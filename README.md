@@ -6,7 +6,8 @@
 [![](https://img.shields.io/badge/API-21%2B-52c82d.svg?style=flat)][35]
 [![](https://img.shields.io/badge/GitHub-vipyinzhiwei-5674dd.svg?style=flat?style=flat-square&logo=GitHub)][36]
 
-基于 [Kotlin][1] 语言仿写「[开眼 Eyepetizer][2]」的一个短视频 Android 客户端项目，采用 [Jetpack][3] + [协程][30]实现的 MVVM 架构。
+基于 [Kotlin][1] 语言仿写「[开眼 Eyepetizer][2]」的一个短视频 Android 客户端项目，
+采用 [Jetpack][3] + [协程][30]实现的 MVVM 架构。
 
 ## 简介
 这是一个高仿「[开眼 Eyepetizer][2]」的短视频 Android 客户端项目，个人觉得这款 App 的 UI 设计风格很好看，界面简洁清新，通过此项目，进行相关技术的学习与整合。
@@ -71,8 +72,8 @@
 - [Glide Transformations][18] 图像转换
 - [Eventbus][19] 事件总线
 - [Permissionx][20] 动态请求权限封装
-- [FlycoTabLayout][21] TabLayout封装
-- [SmartRefreshLayout][22] 下拉刷新框架
+- [FlycoTabLayout][21] TabLayout封装 ##
+- [SmartRefreshLayout][22] 下拉刷新框架 ##
 - [BannerViewPager][23] Banner轮播图
 - [Immersionbar][24] 状态栏管理
 - [PhotoView][25] 支持手势缩放图片

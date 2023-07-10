@@ -43,7 +43,7 @@ class SettingActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        _binding = ActivitySettingBinding.inflate(layoutInflater)
+        _binding = ActivitySettingBinding.inflate(layoutInflater)//db  vb
         setContentView(binding.root)
     }
 

@@ -18,6 +18,7 @@ package com.eyepetizer.android.event
 
 /**
  * EventBus所有消息的基类。
+ * 这样设置一个基类进行聚合，不错。那为什么不用接口呢
  *
  * @author vipyinzhiwei
  * @since  2020/4/29

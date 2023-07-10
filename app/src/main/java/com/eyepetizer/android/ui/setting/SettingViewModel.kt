@@ -82,11 +82,12 @@ class SettingViewModel : ViewModel() {
 
     private fun clearAllCache(context: Context) {
         viewModelScope.launch(Dispatchers.Main) {
+            //
             GSYVideoManager.instance().clearAllDefaultCache(context)
             Glide.get(context).clearMemory()
             withContext(Dispatchers.IO) {
                 Glide.get(context).clearDiskCache()
-                if (SonicEngine.isGetInstanceAllowed()) {
+                if (SonicEngine.isGetInstanceAllowed()) {//
                     SonicEngine.getInstance().cleanCache()
                 }
             }
